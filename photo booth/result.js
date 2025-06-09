@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
     downloadBtn.addEventListener("click", function () {
         const link = document.createElement("a");
         link.href = canvas.toDataURL("image/png");
-        link.download = "allindan_with_lia.png";
+        link.download = "np_2025610.png";
         link.click();
     });
 
